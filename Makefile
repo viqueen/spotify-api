@@ -4,6 +4,7 @@ sync-schema:
 go-sdk:
 	docker run --rm \
 		--volume "$(PWD):/local" \
+		--volume "$(PWD)/../spotify-api-go-sdk:/local/go-sdk" \
 		openapitools/openapi-generator-cli generate \
 		--input-spec /local/schema.yaml \
 		--skip-validate-spec \
