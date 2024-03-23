@@ -1,0 +1,5 @@
+.idea/
+*.iml
+
+schema.yaml
+**/git_push.sh
