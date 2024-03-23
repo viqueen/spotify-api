@@ -9,5 +9,5 @@ go-sdk:
 		--skip-validate-spec \
 		--generator-name go \
 		--git-user-id viqueen \
-		--git-repo-id spotify-api \
+		--git-repo-id spotify-api-go-sdk \
 		--output /local/go-sdk

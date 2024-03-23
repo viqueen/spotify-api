@@ -1,5 +1,6 @@
 .idea/
 *.iml
 
+*-sdk/
 schema.yaml
 **/git_push.sh
