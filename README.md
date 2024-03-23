@@ -13,3 +13,10 @@ We use openapi-generator to generate the client code for the Spotify API.
 make sync-schema
 make go-sdk
 ```
+
+* python-sdk
+
+```bash
+make sync-schema
+make python-sdk
+```
